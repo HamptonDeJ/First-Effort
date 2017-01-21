@@ -1,3 +1,2 @@
 # First-Effort
-This is the first experience with a Github Repository and I'm having a hrd time creating a branch
-
+This is a Python pgm for pulling 200 tweets from the Twitter page for "santawclaus".  It came form www.craigaddyman.com, and it is a response to one element of the SANS Holiday Hack 2016.
