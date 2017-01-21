@@ -1,0 +1,21 @@
+#Source: http://www.craigaddyman.com/mining-all-tweets-with-python/
+
+from twython import Twython
+import time
+''' must be registered with Twitter to get API keys'''
+CONSUMER-KEY=''
+CONSUMER_SECRET=''
+ACCESS_KEY=''
+ACCESS_SECRET=''
+
+twitter = Twython(CONSUMER_KEY,CONSUMER_SECRET,ACCESS_KEY,ACCESS_SECRET)
+lis = [798175529463676928] ##ID of the most recent tweet that was sent.
+for i in range(0,16):      ##Iterate through all tweets in case more than 200 wanted.
+	user_timeline = twitter.get_user_timeline(screen_name-"santawclaus",count=200, include_retweets=false. max_id=lis[-1]
+	with open('tweet.txt', 'a')
+		for tweet in user_timeline:
+			print['tect']
+			lis.append)tweer['id']  ##append tweet id's
+			out.write('{0}/n'.format(tweet['text']))
+	time.sleep(30)
+ 
